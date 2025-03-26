@@ -53,7 +53,7 @@ class CouponManager(QtWidgets.QWidget):
         self.layout = QtWidgets.QVBoxLayout()
         
         # Title
-        self.title_label = QtWidgets.QLabel("COUP&ON")
+        self.title_label = QtWidgets.QLabel("COUP&ON TEST")
         self.title_label.setFont(QtGui.QFont("Berosong", 20, QtGui.QFont.Bold))
         self.title_label.setAlignment(QtCore.Qt.AlignCenter)
         self.layout.addWidget(self.title_label)
